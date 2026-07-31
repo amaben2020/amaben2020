@@ -13,12 +13,21 @@ I build production systems end-to-end — from React/Next.js front-ends to backe
 - **Backend Systems** — transactional integrity (ACID-compliant financial systems), database design (Postgres/Drizzle, DynamoDB), and API architecture.
 - **Fintech & Payments** — wallet systems, Stripe integrations, reconciliation logic.
 
-## 📦 Featured Packages
+## 📦 Featured Case Study: SearchAtlas MCP Server
 
-- **[MCPforge](https://www.npmjs.com/package/mcpforge)** — <!-- one-line description: what it does, e.g. "scaffolding/tooling for building MCP servers" --> Adopted in Cursor and Claude Code.
+**[SearchAtlas MCP Server](https://github.com/Search-Atlas-Group/searchatlas-mcp-server)** ([npm](https://www.npmjs.com/package/searchatlas-mcp-server)) — an MCP bridge connecting AI clients (Claude Code, Cursor, Claude Desktop, VS Code, Windsurf, Zed) to the hosted SearchAtlas v2 platform, exposing 500+ tools across SEO, PPC, content generation, local SEO, link building, digital PR, and LLM visibility.
+
+- Built as a stdio-to-Streamable-HTTP bridge so clients without native remote-MCP support can still connect
+- Ships a CLI (`searchatlas login`, `searchatlas check`) that auto-detects paths and generates ready-to-paste config for every major MCP client
+- Tools are discovered dynamically from the live server, so the client always sees the current catalogue without needing a package update
+- MIT licensed, listed on the official MCP Registry
+
+*(Add: your specific role/contribution if this is a team repo — e.g. "Designed and built the CLI auth flow and multi-client config generation.")*
+
+## 📦 Other Packages
+
+- **[MCPforge](https://www.npmjs.com/package/mcpforge)** — <!-- one-line description --> Adopted in Cursor and Claude Code.
 - **[SpecForge](https://www.npmjs.com/package/specforge)** — <!-- one-line description --> Adopted in Cursor and Claude Code.
-
-*(Replace the links above with the actual npm URLs if these differ.)*
 
 ## 🚀 Selected Projects
 
