@@ -1,6 +1,6 @@
 # Hi, I'm Uzochukwu Benneth (Algomachine) 👋
 
-Senior Fullstack & Backend Engineer with ~10 years of experience across fintech, IoT/telematics, and AI agent architecture. Based in Abuja, Nigeria.
+Senior Fullstack & Backend Engineer with 8 years of experience across fintech, IoT/telematics, and AI agent architecture. Based in Abuja, Nigeria.
 
 I build production systems end-to-end — from React/Next.js front-ends to backend architecture, database design, and increasingly, AI agent tooling built on the Model Context Protocol (MCP).
 
