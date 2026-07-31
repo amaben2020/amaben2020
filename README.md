@@ -24,10 +24,6 @@ I build production systems end-to-end — from React/Next.js front-ends to backe
 
 *(Add: your specific role/contribution if this is a team repo — e.g. "Designed and built the CLI auth flow and multi-client config generation.")*
 
-## 📦 Other Packages
-
-- **[MCPforge](https://www.npmjs.com/package/mcpforge)** — <!-- one-line description --> Adopted in Cursor and Claude Code.
-- **[SpecForge](https://www.npmjs.com/package/specforge)** — <!-- one-line description --> Adopted in Cursor and Claude Code.
 
 ## 🚀 Selected Projects
 
