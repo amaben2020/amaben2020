@@ -32,7 +32,7 @@ I build production systems end-to-end — from React/Next.js front-ends to backe
  
 ### 🎥 Demo Video
 
-[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/9dcd7efe4f494ccc81e3a80b525b28f1-00001.jpg)](https://www.loom.com/share/9dcd7efe4f494ccc81e3a80b525b28f1)
+[![Watch the demo](./assets/demo-thumbnail.png)](https://www.loom.com/share/9dcd7efe4f494ccc81e3a80b525b28f1)
 
 ## 📦 Featured Case Study: SearchAtlas MCP Server
 
