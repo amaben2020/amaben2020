@@ -29,15 +29,7 @@ I build production systems end-to-end — from React/Next.js front-ends to backe
 
 **Tech stack:** `Node.js` · `TypeScript` · `Next.js` · `PostgreSQL (Neon)` · `AWS EC2` · `Caddy` · `Teltonika Codec 8 Extended` · `OCR.space` · `Upstash Redis`
 
-<p align="center">
-  <img src="./assets/fuelsense-live-monitoring.png" width="90%" alt="FuelSense live monitoring dashboard" />
-</p>
-
-<p align="center">
-  <img src="./assets/fuelsense-driver-behavior.png" width="47%" alt="FuelSense anomaly investigation view" />
-  <img src="./assets/fuelsense-receipts.png" width="47%" alt="FuelSense receipt reconciliation view" />
-</p>
-
+ 
 ### 🎥 Demo Video
 
 [![Watch the demo](https://cdn.loom.com/sessions/thumbnails/9dcd7efe4f494ccc81e3a80b525b28f1-with-play.gif)](https://www.loom.com/share/9dcd7efe4f494ccc81e3a80b525b28f1)
