@@ -11,7 +11,38 @@ I build production systems end-to-end — from React/Next.js front-ends to backe
 - **AI Agent Infrastructure & MCP Tooling** — I author and maintain MCP packages used in production developer tools.
 - **Fullstack Web Development** — Next.js, React, Node.js/NestJS, GraphQL, REST APIs.
 - **Backend Systems** — transactional integrity (ACID-compliant financial systems), database design (Postgres/Drizzle, DynamoDB), and API architecture.
+- **IoT & Telematics** — GPS/CAN-bus hardware integration, real-time protocol parsing, live location and sensor pipelines.
 - **Fintech & Payments** — wallet systems, Stripe integrations, reconciliation logic.
+
+---
+
+## 🚚 Featured Project: FuelSense
+
+**FuelSense** is a fleet fuel-monitoring and theft-detection SaaS built for Nigerian commercial fleets, where fuel theft commonly runs at an estimated 15–30% of total fuel spend. Founder and sole engineer — built end-to-end from live hardware ingestion to the driver- and manager-facing product.
+
+- Live TCP server parsing raw **Teltonika Codec 8 Extended** GPS/telematics packets from a **Teltonika FMC150** tracker wired into a vehicle's CAN bus / OBD-II port
+- Real-time trip detection, idle-cost tracking, geofencing, and consumption-anomaly detection derived entirely from GPS telemetry
+- Driver-facing fuel-receipt capture with **OCR extraction** (merchant, litres, cost), reconciled against tracker-modelled fuel levels
+- Anomaly-investigation dashboard: GPS-synced evidence timelines with ignition/speed/fuel correlation and confidence-scored flags, framed as "investigation assist, not a final accusation"
+- Deployed on **AWS EC2** with a Caddy reverse proxy, **Postgres/Neon** for data, feature-flag–gated rollout, and CSV/Excel export for fleet accounting
+- Live pilot running with a real fleet operator (TRT, Abuja)
+
+**Tech stack:** `Node.js` · `TypeScript` · `Next.js` · `PostgreSQL (Neon)` · `AWS EC2` · `Caddy` · `Teltonika Codec 8 Extended` · `OCR.space` · `Upstash Redis`
+
+<p align="center">
+  <img src="./assets/fuelsense-live-monitoring.png" width="90%" alt="FuelSense live monitoring dashboard" />
+</p>
+
+<p align="center">
+  <img src="./assets/fuelsense-driver-behavior.png" width="47%" alt="FuelSense anomaly investigation view" />
+  <img src="./assets/fuelsense-receipts.png" width="47%" alt="FuelSense receipt reconciliation view" />
+</p>
+
+### 🎥 Demo Video
+
+[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/9dcd7efe4f494ccc81e3a80b525b28f1-with-play.gif)](https://www.loom.com/share/9dcd7efe4f494ccc81e3a80b525b28f1)
+
+---
 
 ## 📦 Featured Case Study: SearchAtlas MCP Server
 
@@ -24,7 +55,6 @@ I build production systems end-to-end — from React/Next.js front-ends to backe
 
 *(Add: your specific role/contribution if this is a team repo — e.g. "Designed and built the CLI auth flow and multi-client config generation.")*
 
-
 ## 🚀 Selected Projects
 
 - **[algo-stores](https://github.com/amaben2020/algo-stores)** — E-commerce platform built with Next.js, Tailwind, Stripe, Firebase Auth/Firestore, Airtable-backed inventory management, and analytics/segment tracking.
@@ -36,7 +66,7 @@ I build production systems end-to-end — from React/Next.js front-ends to backe
 
 ## 🛠️ Tech Stack
 
-`TypeScript` · `Next.js` · `React` · `Node.js` · `NestJS` · `GraphQL` · `REST` · `PostgreSQL` · `DynamoDB` · `Stripe` · `Firebase` · `MCP`
+`TypeScript` · `Next.js` · `React` · `Node.js` · `NestJS` · `GraphQL` · `REST` · `PostgreSQL` · `DynamoDB` · `Stripe` · `Firebase` · `MCP` · `AWS EC2` · `IoT/Telematics`
 
 ## 📫 Get in touch
 
